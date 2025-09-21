@@ -1,0 +1,33 @@
+{
+   "name": "Lookup-Processor",
+   "input": {
+      "default": {
+         "kafka": {
+            "host": "localhost",
+            "port": 29092,
+            "topic": "my-input"
+         }
+      }
+   },
+   "output": {
+      "default": {
+         "kafka": {
+            "host": "localhost",
+            "port": 29092,
+            "topic": "my-output"
+         }
+      }
+   },
+  "lookup": {
+    "key": "postal.code",
+    "destination": "postal.city",
+    "dictionary": {
+        "44795": "Bochum",
+        "44801": "Bochum",
+        "10115": "Berlin",
+        "45131": "Essen",
+        "28201": "Bremen"
+    }
+  }
+}
+

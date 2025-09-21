@@ -1,0 +1,4 @@
+requests==2.32.3
+pytest_httpserver==1.1.2
+trustme==1.2.1
+certifi==2025.1.31

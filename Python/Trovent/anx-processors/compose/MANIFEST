@@ -1,0 +1,1 @@
+Composes a string by replacing placeholders in a template with values from the input JSON.

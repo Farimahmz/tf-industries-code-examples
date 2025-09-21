@@ -1,0 +1,52 @@
+{
+   "name": "Transformer",
+   "input": {
+      "default": {
+         "kafka": {
+            "host": "localhost",
+            "port": 29092,
+            "topic": "my-input"
+         }
+      }
+   },
+   "output": {
+      "default": {
+         "kafka": {
+            "host": "localhost",
+            "port": 29092,
+            "topic": "my-output"
+         }
+      }
+   },
+   "transform": {
+      "commands": [
+         {
+            "add": {
+               "key": "keyname",
+               "value": "value"
+            }
+         },
+         {
+            "delete": {
+               "key": "keyname",
+               "keys": [
+                  "keyname",
+                  "keyname"
+               ]
+            }
+         },
+         {
+            "move": {
+               "from": "keyname",
+               "to": "keyname"
+            }
+         },
+         {
+            "copy": {
+               "from": "keyname",
+               "to": "keyname"
+            }
+         }
+      ]
+   }
+}

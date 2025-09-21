@@ -1,0 +1,12 @@
+{
+    "name": "Trovent Security GmbH",
+    "size": 50,
+    "address": {
+        "city": "Bochum",
+        "PLZ": 44801,
+        "street": {
+            "street-name": "Konrad-Zuse-Strasse",
+            "number": 18
+        }
+    }
+}

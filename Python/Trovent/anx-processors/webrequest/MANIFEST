@@ -1,0 +1,1 @@
+Executes HTTP requests (GET, POST, PUT, DELETE) with dynamic URL and optional headers/body. Supports plain or JSON payloads, configurable SSL behavior, and injects the full response (status, headers, body) into the target field. Useful for data enrichment, validation, or triggering external systems within ETL pipelines.

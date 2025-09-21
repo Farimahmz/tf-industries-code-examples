@@ -1,0 +1,25 @@
+{
+   "name": "Compose",
+   "input": {
+      "default": {
+         "kafka": {
+            "host": "localhost",
+            "port": 29092,
+            "topic": "my-input"
+         }
+      }
+   },
+   "output": {
+      "default": {
+         "kafka": {
+            "host": "localhost",
+            "port": 29092,
+            "topic": "my-output"
+         }
+      }
+   },
+   "compose": {
+      "source": "User {user.name} lives in {user.city}.",
+      "target": "message"
+   }
+}

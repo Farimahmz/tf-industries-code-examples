@@ -1,0 +1,1 @@
+Parses a JSON string from a source field and inserts the parsed data into the target field. Optionally stores errors and deletes the original source.

@@ -1,0 +1,27 @@
+{
+   "name": "Json-Parser",
+   "input": {
+      "default": {
+         "kafka": {
+            "host": "localhost",
+            "port": 29092,
+            "topic": "my-input"
+         }
+      }
+   },
+   "output": {
+      "default": {
+         "kafka": {
+            "host": "localhost",
+            "port": 29092,
+            "topic": "my-output"
+         }
+      }
+   },
+   "json": {
+      "source": "message",
+      "target" : "result",
+      "error_field" : "error",
+      "deleteAfterParsing" : true
+   }
+}

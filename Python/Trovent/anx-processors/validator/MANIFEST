@@ -1,0 +1,1 @@
+Applies configurable validation rules to JSON input and appends results to a 'validation' field.

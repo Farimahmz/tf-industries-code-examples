@@ -1,0 +1,4 @@
+This processor sends emails via SMTP using settings from the config.
+
+It supports authentication, TLS, and sending to one or multiple recipients.
+The email content (subject and body) is defined in the config and triggered by Kafka messages.

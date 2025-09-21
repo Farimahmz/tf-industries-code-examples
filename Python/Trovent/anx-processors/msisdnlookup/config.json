@@ -1,0 +1,28 @@
+{
+  "msisdn": {
+    "input": {
+      "field": "MSISDN"
+    },
+    "output": {
+      "field": "MSISDNLookup"
+    }
+  },
+  "input": {
+    "default": {
+      "kafka": {
+        "host": "localhost",
+        "port": 29092,
+        "topic": "msisdn-input"
+      }
+    }
+  },
+  "output": {
+    "default": {
+      "kafka": {
+        "host": "localhost",
+        "port": 29092,
+        "topic": "msisdn-output"
+      }
+    }
+  }
+}

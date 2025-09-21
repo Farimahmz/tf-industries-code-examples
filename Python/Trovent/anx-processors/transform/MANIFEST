@@ -1,0 +1,1 @@
+Applies configurable transformations to JSON data, including add, delete, move, copy, and text formatting (e.g. uppercase, strip, split). Enables flexible, command-driven data manipulation in ETL pipelines.

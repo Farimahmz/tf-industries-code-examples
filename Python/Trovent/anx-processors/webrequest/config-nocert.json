@@ -1,0 +1,34 @@
+{
+   "name": "Web-Request",
+   "input": {
+      "default": {
+         "kafka": {
+            "host": "localhost",
+            "port": 29092,
+            "topic": "my-input"
+         }
+      }
+   },
+   "output": {
+      "default": {
+         "kafka": {
+            "host": "localhost",
+            "port": 29092,
+            "topic": "my-output"
+         }
+      }
+   },
+   "webrequest": {
+      "url": "https://it-tools.server.trovent",
+      "method" : "GET",
+      "headers" : {},
+      "body" : {
+         "plain" : "",
+         "json" : {"username"  : "analyst", "password" : "secret-password"}
+      },
+      "target" : "result",
+      "timeout" : 2,
+      "skip_cert_check" : false
+   }
+}
+

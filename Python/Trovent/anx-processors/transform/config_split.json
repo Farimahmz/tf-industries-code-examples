@@ -1,0 +1,32 @@
+{
+   "name": "Transformer",
+   "input": {
+      "default": {
+         "kafka": {
+            "host": "localhost",
+            "port": 29092,
+            "topic": "my-input"
+         }
+      }
+   },
+   "output": {
+      "default": {
+         "kafka": {
+            "host": "localhost",
+            "port": 29092,
+            "topic": "my-output"
+         }
+      }
+   },
+   "transform": {
+      "commands": [
+      {
+         "split": {
+            "key": "message",
+            "separator": ",",
+            "max": 3
+         }
+      }
+   ]
+ }
+}

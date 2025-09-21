@@ -1,0 +1,35 @@
+{
+  "smtp": {
+    "host": "smtp.server.trovent",
+    "port": 587,
+    "TLS": true,
+    "credentials": {
+      "user": "anx-test@int.trovent.io",
+      "password": "so0sah9lae9Leivu"
+    }
+  },
+  "sender": "anx-test@int.trovent.io",
+  "receivers": ["f.malekizandi@trovent.io", "farimah.mz@gmail.com"],
+  "mail": {
+    "subject": "Message from {user.name}",
+    "text": "This mail is sent by {user.name}."
+  },
+  "input": {
+    "default": {
+      "kafka": {
+        "host": "localhost",
+        "port": 29092,
+        "topic": "my-input"
+      }
+    }
+  },
+  "output": {
+    "default": {
+      "kafka": {
+        "host": "localhost",
+        "port": 29092,
+        "topic": "my-output"
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+	"meta": {
+		"source": "test_ca_certificate"
+	},
+	"message": "A message from ",
+	"response": {
+		"status": {
+			"code": 200,
+			"message": "OK"
+		},
+		"body": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <link rel=\"icon\" href=\"favicon.ico\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>IT Tools - Handy online tools for developers</title>\n    <meta itemprop=\"name\" content=\"IT Tools - Handy online tools for developers\" />\n    <meta\n      name=\"description\"\n      content=\"Collection of handy online tools for developers, with great UX. IT Tools is a free and open-source collection of handy online tools for developers & people working in IT.\"\n    />\n    <meta\n      itemprop=\"description\"\n      content=\"Collection of handy online tools for developers, with great UX. IT Tools is a free and open-source collection of handy online tools for developers & people working in IT.\"\n    />\n    <link rel=\"author\" href=\"humans.txt\" />\n    <link rel=\"canonical\" href=\"https://it-tools.tech\" />\n\n    <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"apple-touch-icon.png\" />\n    <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"favicon-32x32.png\" />\n    <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"favicon-16x16.png\" />\n    <link rel=\"mask-icon\" href=\"safari-pinned-tab.svg\" color=\"#18a058\" />\n    <meta name=\"msapplication-TileColor\" content=\"#da532c\" />\n    <meta name=\"theme-color\" content=\"#ffffff\" />\n\n    <meta property=\"og:url\" content=\"https://it-tools.tech/\" />\n    <meta property=\"og:type\" content=\"website\" />\n    <meta property=\"og:title\" content=\"IT Tools - Handy online tools for developers\" />\n    <meta\n      property=\"og:description\"\n      content=\"Collection of handy online tools for developers, with great UX. IT Tools is a free and open-source collection of handy online tools for developers & people working in IT.\"\n    />\n    <meta property=\"og:image\" content=\"https://it-tools.tech/banner.png?v=2\" />\n\n    <meta name=\"twitter:card\" content=\"summary_large_image\" />\n    <meta name=\"twitter:site\" content=\"@ittoolsdottech\" />\n    <meta name=\"twitter:creator\" content=\"@cthmsst\" />\n\n    <meta name=\"twitter:title\" content=\"IT Tools - Handy online tools for developers\" />\n    <meta\n      name=\"twitter:description\"\n      content=\"Collection of handy online tools for developers, with great UX. IT Tools is a free and open-source collection of handy online tools for developers & people working in IT.\"\n    />\n    <meta name=\"twitter:image\" content=\"https://it-tools.tech/banner.png?v=2\" />\n    <meta name=\"twitter:image:alt\" content=\"IT Tools - Handy online tools for developers\" />\n    <script type=\"module\" crossorigin src=\"/assets/index-f8ba620c.js\"></script>\n    <link rel=\"stylesheet\" href=\"/assets/index-f0f4dd3b.css\">\n  <link rel=\"manifest\" href=\"/manifest.webmanifest\"></head>\n  <body>\n    <div id=\"app\"></div>\n    \n  </body>\n</html>\n",
+		"headers": {
+			"Server": "nginx/1.26.2",
+			"Date": "Wed, 29 Jan 2025 11:16:04 GMT",
+			"Content-Type": "text/html",
+			"Content-Length": "2787",
+			"Last-Modified": "Tue, 22 Oct 2024 08:28:06 GMT",
+			"Connection": "keep-alive",
+			"ETag": "\"67176216-ae3\"",
+			"Accept-Ranges": "bytes"
+		}
+	}
+}

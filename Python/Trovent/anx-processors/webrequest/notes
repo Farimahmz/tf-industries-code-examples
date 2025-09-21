@@ -1,0 +1,9 @@
+skip=false
+https://it-tools.server.trovent with CA     success
+https://it-tools.server.trovent without CA     error
+https://trovent.io without CA     success
+
+skip=true
+https://it-tools.server.trovent with CA     success
+https://it-tools.server.trovent without CA     success
+https://trovent.io without CA     success

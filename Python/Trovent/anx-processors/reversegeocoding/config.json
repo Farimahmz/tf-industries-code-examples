@@ -1,0 +1,31 @@
+{
+  "geo": {
+    "input": {
+      "field": "Latitude,Longitude"
+    },
+    "output": "ReverseGeoCoding",
+    "lookup": {
+      "url": "https://nominatim.openstreetmap.org/reverse",
+      "mode": "reverse",
+      "user_agent": "my-reverse-geocoding-processor/1.0 (contact: my-email@example.com)"
+    }
+  },
+  "input": {
+    "default": {
+      "kafka": {
+        "host": "localhost",
+        "port": 29092,
+        "topic": "my-input"
+      }
+    }
+  },
+  "output": {
+    "default": {
+      "kafka": {
+        "host": "localhost",
+        "port": 29092,
+        "topic": "myOutputWithGeo"
+      }
+    }
+  }
+}

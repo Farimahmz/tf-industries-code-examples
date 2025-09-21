@@ -1,0 +1,34 @@
+{
+   "name": "Validator-Processor",
+   "input": {
+      "default": {
+         "kafka": {
+            "host": "localhost",
+            "port": 29092,
+            "topic": "my-input"
+         }
+      }
+   },
+   "output": {
+      "default": {
+         "kafka": {
+            "host": "localhost",
+            "port": 29092,
+            "topic": "my-output"
+         }
+      }
+   },
+  "validator": {
+    "tests": [
+      {
+        "equals": {
+          "keys": ["record.city", "record.expected_city"],
+          "message": "City does not match the expected value",
+          "id": "test_1",
+          "description": "Test if the city matches Bochum"
+        }
+      }
+    ]
+  }
+}
+
